@@ -6,6 +6,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './components/Pages/Home'
 import About from './components/Pages/About'
 import Contact from './components/Pages/Contact';
+import Portfolio from './components/common/Portfolio';
 
 
 class App extends Component {
@@ -30,7 +31,11 @@ class App extends Component {
                 path="/about"
                 element={<About />}
               />
-
+              <Route 
+                exact={true}
+                path="/portfolio"
+                element={<Portfolio />}
+              />
               <Route 
                 exact={true}
                 path="/contact"

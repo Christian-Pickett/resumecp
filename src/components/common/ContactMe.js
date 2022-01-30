@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import cpResume from './CPickett_resume.pdf';
 
 
-class Contact extends Component {
+class ContactMe extends Component {
 
     render() {
         return (        
@@ -39,4 +39,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default ContactMe;

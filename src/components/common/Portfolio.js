@@ -1,20 +1,14 @@
 import React, {Component} from 'react';
 import PortfolioItem from './PortfolioItem';
 
-import img1 from '../assets/portfolio/1.jpg';
-import img2 from '../assets/portfolio/2.jpg';
-import img3 from '../assets/portfolio/3.jpg';
-import img4 from '../assets/portfolio/4.jpg';
-import img5 from '../assets/portfolio/5.jpg';
-import img6 from '../assets/portfolio/6.jpg';
+import img1 from '../assets/portfolio/index.jpeg';
+import img2 from '../assets/portfolio/Leonhard_Euler.737565df.jpg';
+import img3 from '../assets/portfolio/logo512.png';
 
 const portfolio = [
-    {title: 'Threads', subtitle: 'Illustration', image: img1},
-    {title: 'Explore', subtitle: 'Graphic Design', image: img2},
-    {title: 'Finish', subtitle: 'Identity', image: img3},
-    {title: 'Lines', subtitle: 'Branding', image: img4},
-    {title: 'Southwest', subtitle: 'Website Design', image: img5},
-    {title: 'Window', subtitle: 'Photography', image: img6}
+    {title: 'Save The Wood', subtitle: 'Ludum Dare 43, Godot Engine', image: img1, link: "https://github.com/Christian-Pickett/SaveTheFire"},
+    {title: 'Euler Project', subtitle: 'Computational Mathematics', image: img2, link: "https://github.com/Christian-Pickett/Euler_project"},
+    {title: 'Personal Webpage', subtitle: 'AWS, React, Loopback', image: img3, link: "https://github.com/Christian-Pickett/resumecp"},
 ];
 
 class Portfolio extends Component {
@@ -24,7 +18,6 @@ class Portfolio extends Component {
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Portfolio</h2>
-                    <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div className="row">
                     {portfolio.map((item, index) => {
