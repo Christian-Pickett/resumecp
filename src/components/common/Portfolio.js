@@ -8,7 +8,7 @@ import img3 from '../assets/portfolio/logo512.png';
 const portfolio = [
     {title: 'Save The Wood', subtitle: 'Ludum Dare 43, Godot Engine', image: img1, link: "https://github.com/Christian-Pickett/SaveTheFire"},
     {title: 'Euler Project', subtitle: 'Computational Mathematics', image: img2, link: "https://github.com/Christian-Pickett/Euler_project"},
-    {title: 'Personal Webpage', subtitle: 'AWS, React, Loopback', image: img3, link: "https://github.com/Christian-Pickett/resumecp"},
+    {title: 'Personal Webpage', subtitle: 'AWS, React, Node.js', image: img3, link: "https://github.com/Christian-Pickett/resumecp"},
 ];
 
 class Portfolio extends Component {

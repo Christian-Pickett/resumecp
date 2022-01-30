@@ -1,4 +1,8 @@
 import React, {Component} from 'react';
+import imgARS from '../assets/img/ARS.jpeg';
+import imgUCD from '../assets/img/UCDavis.jpeg';
+import imgVoxPro from '../assets/img/voxpro.jpeg';
+import imgEandM from '../assets/img/EandM.jpeg';
 
 class About extends Component {
     render(){
@@ -11,7 +15,7 @@ class About extends Component {
                     </div>
                     <ul className="timeline">
                         <li>
-                            <div className="timeline-image"><img className="rounded-circle img-fluid" src="img/about/UCDavis.jpeg" alt="..." /></div>
+                            <div className="timeline-image"><img className="rounded-circle img-fluid" src={imgUCD} alt="..." /></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h4>2015-2017</h4>
@@ -21,7 +25,7 @@ class About extends Component {
                             </div>
                         </li>
                         <li className="timeline-inverted">
-                            <div className="timeline-image"><img className="rounded-circle img-fluid" src="img/about/voxpro.jpeg" alt="..." /></div>
+                            <div className="timeline-image"><img className="rounded-circle img-fluid" src={imgVoxPro} alt="..." /></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h4>Fall & Winter 2017</h4>
@@ -35,7 +39,7 @@ technical concepts as well as troubleshooting customer issues over the phone.</p
                             </div>
                         </li>
                         <li>
-                            <div className="timeline-image"><img className="rounded-circle img-fluid" src="img/about/ARS.jpeg" alt="..." /></div>
+                            <div className="timeline-image"><img className="rounded-circle img-fluid" src={imgARS} alt="..." /></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h4>Spring & Summer 2018</h4>
@@ -48,7 +52,7 @@ project I used the .NET framework, postgresSQL, and their partner’s RESTful AP
                             </div>
                         </li>
                         <li className="timeline-inverted">
-                            <div className="timeline-image"><img className="rounded-circle img-fluid" src="img/about/EandM.jpeg" alt="..." /></div>
+                            <div className="timeline-image"><img className="rounded-circle img-fluid" src={imgEandM} alt="..." /></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h4>2019-2020</h4>
