@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import cpResume from '../assets/CPickett_resume.pdf';
+import cpResume from './CPickett_resume.pdf';
 
 
 class ContactMe extends Component {
