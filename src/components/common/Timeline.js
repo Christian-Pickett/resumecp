@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import imgARS from '../assets/img/ARS.jpeg';
-import imgUCD from '../assets/img/UCDavis.jpeg';
-import imgVoxPro from '../assets/img/voxpro.jpeg';
-import imgEandM from '../assets/img/EandMsmall.jpeg';
+import imgUCD from '../assets/img/UCDavisS.jpeg';
+import imgVoxPro from '../assets/img/voxpros.jpeg';
+import imgEandM from '../assets/img/EandMc.jpeg';
 
 
 
