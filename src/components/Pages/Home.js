@@ -7,6 +7,7 @@ import Services from '../common/Services';
 import Portfolio from '../common/Portfolio';
 import Timeline from '../common/Timeline';
 import ContactMe from '../common/ContactMe';
+import Technology from '../common/Technology';
 
 class Home extends Component {
 
@@ -23,6 +24,7 @@ class Home extends Component {
                     image={imageUrl}
                 />
                 <Services />
+                <Technology />
                 <Portfolio />
                 <Timeline /> 
                 <ContactMe />
