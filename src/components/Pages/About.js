@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import imgARS from '../assets/img/ARS.jpeg';
 import imgUCD from '../assets/img/UCDavis.jpeg';
 import imgVoxPro from '../assets/img/voxpro.jpeg';
-import imgEandM from '../assets/img/EandM.jpeg';
+import imgEandM from '../assets/img/EandMsmall.jpeg';
 
 class About extends Component {
     render(){
