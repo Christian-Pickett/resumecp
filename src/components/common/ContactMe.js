@@ -29,7 +29,7 @@ class ContactMe extends Component {
                     <a href="mailto:christianpickett@protonmail.com" class="btn contact-details">
                     <i class="fas fa-at"></i> email</a>
                     <a href="tel:707-975-2865" class="btn contact-details">
-                    <i class="fas fa-mobile-alt"></i> (707)975-2865</a>       
+                    <i class="fas fa-mobile-alt"></i> phone</a>       
                 </div>
             </section>
         )
